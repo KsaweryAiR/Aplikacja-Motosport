@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Motosport2</string>
+    <string name="countdown_string">Do wyścigu pozostało:" %1$d dni, %2$d godzin i %3$d minut</string>
+    <string name="locationf1">%1$s</string>
+    <plurals name="countdown_string">
+        <item quantity="one">%1$d day, %2$d hours, %3$d minutes left until the race</item>
+        <item quantity="few">%1$d days, %2$d hours, %3$d minutes left until the race</item>
+        <item quantity="many">%1$d days, %2$d hours, %3$d minutes left until the race</item>
+        <item quantity="other">%1$d days, %2$d hours, %3$d minutes left until the race</item>
+    </plurals>
+</resources>
