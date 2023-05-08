@@ -4,85 +4,117 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:gravity="center_horizontal"
-        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="250dp"
-            android:layout_height="160dp"
+            android:layout_width="210dp"
+            android:layout_height="150dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/f1"/>
+            android:src="@drawable/f1" />
 
         <TextView
             android:id="@+id/f1GP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
             android:text="Tekst pod pierwszym zdjęciem"
-            android:textStyle="bold"
+            android:textColor="@android:color/white"
             android:textSize="20sp"
-            android:gravity="center"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/f1text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
             android:text="Tekst pod pierwszym zdjęciem"
-            android:gravity="center"/>
+            android:textColor="@android:color/white" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="250dp"
-            android:layout_height="160dp"
+            android:layout_width="210dp"
+            android:layout_height="150dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic"/>
+            android:src="@drawable/ic" />
 
         <TextView
             android:id="@+id/icGP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
             android:text="Tekst pod drugim zdjęciem"
-            android:textStyle="bold"
+            android:textColor="@android:color/white"
             android:textSize="20sp"
-            android:gravity="center"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/ictext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
             android:text="Tekst pod drugim zdjęciem"
-            android:gravity="center"/>
+            android:textColor="@android:color/white" />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="250dp"
-            android:layout_height="160dp"
+            android:layout_width="210dp"
+            android:layout_height="150dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/wec"/>
+            android:src="@drawable/wec" />
 
         <TextView
             android:id="@+id/wecGP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
             android:text="Tekst pod trzecim zdjęciem"
-            android:textStyle="bold"
+            android:textColor="@android:color/white"
             android:textSize="20sp"
-            android:gravity="center"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/wectext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
             android:text="Tekst pod trzecim zdjęciem"
-            android:gravity="center"/>
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 
