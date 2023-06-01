@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Indycaract3">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:rowCount="12"
+        android:alignmentMode="alignMargins"
+        android:layout_margin="16dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal">
+            <TextView
+                android:id="@+id/teh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Historia Indycar"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <TextView
+                android:id="@+id/teh2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IndyCar Series, znana również jako Indy Racing League (IRL), to jedna z najbardziej prestiżowych serii wyścigowych na świecie, poświęcona wyścigom samochodów o otwartym nadwoziu. Historia serii IndyCar sięga lat 20. XX wieku i była świadkiem niezwykłych wydarzeń, ekscytujących zmagań i niezapomnianych triumfów.
+Początki serii IndyCar sięgają roku 1911, kiedy to po raz pierwszy odbył się Indianapolis 500, jeden z najbardziej znanych wyścigów na świecie. To właśnie ten wyścig, który odbywa się na słynnym torze Indianapolis Motor Speedway, stał się kamieniem milowym w historii serii IndyCar. Początkowo, wyścig Indy 500 odbywał się jako część serii AAA National Championship, która była podstawową serią wyścigową w Stanach Zjednoczonych."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/racing1"/>
+
+            <TextView
+                android:id="@+id/teh3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W latach 40. i 50. XX wieku Indy 500 stał się areną rywalizacji dla kierowców z różnych serii i krajów, co przyczyniło się do wzrostu popularności tego wyścigu na całym świecie. Jednak w latach 60. i 70. wyścig Indy 500 zaczął tracić na znaczeniu i przyciąganiu najlepszych kierowców z powodu rosnących kosztów i ograniczeń technicznych."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/teh4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" W odpowiedzi na te wyzwania, w roku 1979 powstała Championship Auto Racing Teams (CART) – nowa organizacja zarządzająca serią wyścigową, która miała na celu przyciągnięcie najlepszych kierowców i promowanie wyścigów samochodów o otwartym nadwoziu. Seria CART była otwarta dla różnych producentów samochodów i silników, co doprowadziło do rywalizacji pomiędzy takimi markami jak Lola, Reynard, Penske, czy March."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/racing2"/>
+
+
+            <TextView
+                android:id="@+id/teh5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W latach 80. i 90. seria CART przeżyła okres złotego wieku, przyciągając do siebie światowej klasy kierowców, takich jak Mario Andretti, Emerson Fittipaldi, czy Al Unser Jr. Wyścigi były pełne emocji, a rywalizacja była intensywna. Wiele z tych wyścigów, takich jak wyścig na torze Michigan International Speedway w 1996 roku, gdzie zwycięzca został wyłoniony różnicą zaledwie 0,0024 sekundy, weszło do historii jako niezapomniane widowiska.
+Jednak w latach 90. zaczęły się pojawiać napięcia między zarządem serii CART a Indianapolis Motor Speedway, co doprowadziło do podziału w amerykańskich wyścigach samochodowych. W roku 1996 powstała Indy Racing League (IRL) jako konkurencyjna seria do CART, z własnymi regulacjami i wyścigami, które miały na celu przyciągnięcie uwagi kibiców i sponsorów."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/racing3"/>
+
+            <TextView
+                android:id="@+id/teh6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Początkowo, podział ten spowodował zamieszanie i kontrowersje wśród fanów i kierowców. Jednak z czasem IndyCar Series, będąca następcą serii IRL, zaczęła odnosić sukcesy i przyciągać nowych uczestników. IndyCar przywróciło jednocześnie tradycję wyścigu Indianapolis 500 jako punktu kulminacyjnego sezonu, a także wprowadziło wiele innowacji technologicznych, takich jak wprowadzenie aerodynamicznych pakietów, które zwiększyły bezpieczeństwo i rywalizację.
+W ostatnich latach IndyCar Series stała się jedną z najbardziej konkurencyjnych serii wyścigowych na świecie, przyciągającą zarówno doświadczonych kierowców, jak i młode talenty z różnych krajów. Wyścigi są niezwykle zacięte, a różnica między zwycięzcami a przegranymi często jest kwestią setnych części sekundy. IndyCar Series jest również znana z różnorodności torów, na których odbywają się wyścigi, od tradycyjnych owalnych torów po trudne trasy uliczne i road course'y."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/racing4"/>
+
+            <TextView
+                android:id="@+id/teh7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dzisiejsza IndyCar Series to połączenie bogatej historii i innowacyjności. Seria nadal rozwija się, przyciągając nowych sponsorów i rozszerzając swoją globalną bazę fanów. IndyCar przyciąga również uwagę międzynarodowych kierowców, którzy chcą rywalizować na najwyższym poziomie i zdobywać prestiżowe trofea."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/teh8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seria IndyCar ma ogromne znaczenie dla motorsportu i stanowi nieodłączną część amerykańskiej kultury wyścigowej. Jej historia jest pełna niesamowitych wydarzeń i niezapomnianych chwil, które będą żyć w pamięci fanów na zawsze. IndyCar to nie tylko seria wyścigowa, to również symbol pasji, rywalizacji i nieustającego dążenia do doskonałości."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+
+        </LinearLayout>
+
+
+    </GridLayout>
+
+
+</ScrollView>
