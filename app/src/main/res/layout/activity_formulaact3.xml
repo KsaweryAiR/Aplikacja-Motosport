@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Formulaact3">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:rowCount="12"
+        android:alignmentMode="alignMargins"
+        android:layout_margin="16dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal">
+            <TextView
+                android:id="@+id/teh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Historia Formuły 1"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <TextView
+                android:id="@+id/teh2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Formuła 1, znana jako królowa motorsportu, to najbardziej prestiżowa i rozpoznawalna seria wyścigowa na świecie. Jej historia sięga lat 50. XX wieku, kiedy to powstała Międzynarodowa Formuła 1, zainspirowana wcześniejszymi zawodami Grand Prix. Wyścig inauguracyjny odbył się 13 maja 1950 roku na torze Silverstone w Wielkiej Brytanii, a wygrał go Nino Farina za kierownicą Alf Romeo.
+W latach 50. i 60. Formuła 1 zyskała na popularności, stając się areną rywalizacji największych producentów samochodów i legendarnych kierowców. Wielkie postacie takie jak Juan Manuel Fangio, Stirling Moss, Jack Brabham czy Jim Clark stali się ikonami tego sportu, zdobywając tytuły mistrzowskie i podziw fanów na całym świecie."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/klem1"/>
+
+            <TextView
+                android:id="@+id/teh3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W latach 60. dominację w Formule 1 przejęły brytyjskie zespoły. Lotus, BRM i Cooper przyciągnęły uwagę dzięki innowacyjnym rozwiązaniom technicznym i genialnym projektantom, takim jak Colin Chapman czy John Cooper. Lotus 25, zastosowujący po raz pierwszy monocoque, okazał się rewolucyjny dla sportu."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/klem2"/>
+            <TextView
+                android:id="@+id/teh4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W latach 70. i 80. Formuła 1 przeszła kolejną rewolucję. Wprowadzenie skrzyń biegów typu klapka (paddle shift), efektu przyczepności oraz turbodoładowanych silników spowodowało, że samochody stały się szybsze i bardziej zaawansowane technologicznie. Era dominacji Ferrari, McLaren, Lotus czy Williamsa przyciągała uwagę fanów na całym świecie."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/klem3"/>
+
+
+
+            <TextView
+                android:id="@+id/teh5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W latach 80. pojawił się jeden z najbardziej charakterystycznych i wpływowych kierowców w historii Formuły 1 - Ayrton Senna. Jego nieustępliwa determinacja, talent i charyzma sprawiły, że stał się jednym z największych mistrzów w historii. Jego rywalizacja z Alainem Prostem toczyła się na najwyższym poziomie i przyciągała uwagę milionów fanów.
+W latach 90. i na początku XXI wieku, Formuła 1 rozwijała się wraz z globalizacją i komercjalizacją sportu. Nowe torowe obiekty powstawały w różnych zakątkach świata, a liczba krajów organizujących Grand Prix wzrosła. W tym czasie pojawili się nowi mistrzowie, tak jak Michael Schumacher, który zdobył rekordową liczbę siedmiu tytułów mistrza świata."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/klem4"/>
+
+            <TextView
+                android:id="@+id/teh6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Początkowo, podział ten spowodował zamieszanie i kontrowersje wśród fanów i kierowców. Jednak z czasem IndyCar Series, będąca następcą serii IRL, zaczęła odnosić sukcesy i przyciągać nowych uczestników. IndyCar przywróciło jednocześnie tradycję wyścigu Indianapolis 500 jako punktu kulminacyjnego sezonu, a także wprowadziło wiele innowacji technologicznych, takich jak wprowadzenie aerodynamicznych pakietów, które zwiększyły bezpieczeństwo i rywalizację.
+W ostatnich latach IndyCar Series stała się jedną z najbardziej konkurencyjnych serii wyścigowych na świecie, przyciągającą zarówno doświadczonych kierowców, jak i młode talenty z różnych krajów. Wyścigi są niezwykle zacięte, a różnica między zwycięzcami a przegranymi często jest kwestią setnych części sekundy. IndyCar Series jest również znana z różnorodności torów, na których odbywają się wyścigi, od tradycyjnych owalnych torów po trudne trasy uliczne i road course'y."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/klem5"/>
+
+            <TextView
+                android:id="@+id/teh7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Współczesna Formuła 1 to nie tylko rywalizacja na torze, ale również globalny biznes. Wielkie zespoły, takie jak Mercedes-AMG, Ferrari czy Red Bull Racing, inwestują ogromne sumy pieniędzy w rozwój samochodów i technologii. Reklama, sponsoring i prawo telewizyjne stanowią znaczący aspekt finansowy Formuły 1."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/teh8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Formuła 1 jest obecnie emitowana w telewizji na całym świecie, przyciągając miliony widzów na torach wyścigowych. To seria, która inspiruje młodych ludzi, wpływa na przemysł motoryzacyjny i przekracza granice technologii. Formuła 1 jest symbolem ludzkiego dążenia do doskonałości, innowacji i emocji, a jej historia jest nieustającą podróżą w świecie sportu motorowego."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+
+        </LinearLayout>
+
+
+    </GridLayout>
+
+
+</ScrollView>

@@ -100,6 +100,25 @@ class MainActivity : AppCompatActivity() {
         @SuppressLint("StringFormatMatches")
         override fun onPostExecute(result: String) {
             super.onPostExecute(result) // Wywołanie metody onPostExecute. Super wywołanie używane jest do wywołania metody z klasy nadrzędnej (AsyncTask).
+
+            val imageView1 = findViewById<ImageView>(R.id.imageView1)
+            imageView1.setOnClickListener {
+                val intent = Intent(this@MainActivity, Formulaact1::class.java)
+                startActivity(intent)
+            }
+
+            val imageView2 = findViewById<ImageView>(R.id.imageView2)
+            imageView2.setOnClickListener {
+                val intent = Intent(this@MainActivity, Indycaract1::class.java)
+                startActivity(intent)
+            }
+
+            val imageView3 = findViewById<ImageView>(R.id.imageView3)
+            imageView3.setOnClickListener {
+                val intent = Intent(this@MainActivity, Wecact1::class.java)
+                startActivity(intent)
+            }
+
             if (result.isNotEmpty()) { // Sprawdzenie, czy otrzymany rezultat nie jest pusty.
                 val races = JSONObject(result).getJSONObject("MRData")   // Analiza danych JSON i przypisanie wyników do zmiennej "races".
                     .getJSONObject("RaceTable")
@@ -164,11 +183,6 @@ class MainActivity : AppCompatActivity() {
                 f1GP.text = ""
             } // Koniec bloku warunkowego "if-
 
-            val imageView = findViewById<ImageView>(R.id.imageView2)
-            imageView.setOnClickListener {
-                val intent = Intent(this@MainActivity, Indycaract1::class.java)
-                startActivity(intent)
-            }
         }
 
     }

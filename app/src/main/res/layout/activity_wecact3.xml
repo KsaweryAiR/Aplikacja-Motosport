@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wecact3">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:rowCount="12"
+        android:alignmentMode="alignMargins"
+        android:layout_margin="16dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal">
+            <TextView
+                android:id="@+id/teh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Historia WEC"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <TextView
+                android:id="@+id/teh2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="World Endurance Championship (WEC), znane również jako wyścigi długodystansowe, to seria wyścigowa skupiająca się na ekstremalnych próbach wytrzymałości i innowacyjności samochodów. Historia WEC sięga korzeni sportowych wyścigów samochodowych i jest pełna wspaniałych osiągnięć, trudnych wyzwań i niezapomnianych momentów.
+Początki wyścigów długodystansowych sięgają lat 20. XX wieku, kiedy to powstały pierwsze wydarzenia, takie jak 24-godzinny wyścig Le Mans, który odbywa się na słynnym torze Circuit de la Sarthe we Francji. Ten wyjątkowy wyścig przyciągnął uwagę świata motoryzacji i stał się znakiem rozpoznawczym wyścigów długodystansowych."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/lema1"/>
+
+            <TextView
+                android:id="@+id/teh3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W latach 50. i 60. wyścig Le Mans przyciągnął uwagę największych producentów samochodów, którzy chcieli udowodnić swoje umiejętności technologiczne i wytrzymałość swoich pojazdów. Rywalizacja pomiędzy takimi markami jak Ferrari, Porsche, Jaguar czy Ford była zacięta, a wyścig na dystansie 24 godzin stał się polem doświadczalnym dla nowych technologii i rozwiązań."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/lema2"/>
+            <TextView
+                android:id="@+id/teh4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W latach 70. i 80. wyścigi długodystansowe przyciągnęły uwagę jeszcze większej liczby producentów samochodów, a rywalizacja stała się jeszcze bardziej zacięta. Wprowadzenie kategorii prototypów, takich jak Grupa C, przyniosło jeszcze większą różnorodność i innowacyjność wśród samochodów startujących w wyścigach długodystansowych. Pamiętane są również legendy tej ery, takie jak Porsche 956 i 962, które odniosły wiele zwycięstw w wyścigu Le Mans."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/lema3"/>
+
+
+            <TextView
+                android:id="@+id/teh5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W latach 90. i na początku XXI wieku, wyścigi długodystansowe stanęły przed wyzwaniami związanymi z kosztami i przepisami technicznymi. Jednak w roku 2012 powstało FIA World Endurance Championship, nowa seria wyścigowa, która miała na celu ożywić i rozwinąć dziedzinę wyścigów długodystansowych na całym świecie. WEC wprowadziło nowe przepisy techniczne, które miały na celu promowanie zrównoważonego rozwoju technologicznego i ograniczenia kosztów."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/lema4"/>
+
+            <TextView
+                android:id="@+id/teh6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WEC skupia się na długich dystansach, a jego kluczowym wydarzeniem jest nadal wyścig 24-godzinny Le Mans. Jednak seria obejmuje również inne prestiżowe wyścigi, takie jak 6-godzinny wyścig Spa-Francorchamps czy 6-godzinny wyścig Fuji. Wyścigi długodystansowe WEC są areną rywalizacji dla różnych kategorii samochodów, takich jak prototypy LMP1 i LMP2 oraz samochody GT."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/lema5"/>
+
+            <TextView
+                android:id="@+id/teh7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dzisiejsze wyścigi długodystansowe są połączeniem innowacyjności, strategii i wytrzymałości. Producenci samochodów rywalizują o tytuł mistrza WEC, starając się zaimponować światu swoimi osiągnięciami technologicznymi i sportowymi. WEC jest również miejscem, gdzie młode talenty mogą się wykazać i zdobyć doświadczenie w trudnych warunkach wyścigowych."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/teh8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="World Endurance Championship ma głębokie znaczenie dla historii motoryzacji i stanowi wyzwanie dla producentów samochodów oraz kierowców. Wyścigi długodystansowe są symbolem wytrzymałości, zespołowej pracy i pasji do sportów motorowych. Historia WEC to pełna niezwykłych osiągnięć, niezapomnianych momentów i bezprecedensowych wyzwań, które przyciągają zarówno kierowców, jak i fanów na całym świecie."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+
+        </LinearLayout>
+
+
+    </GridLayout>
+
+
+</ScrollView>
