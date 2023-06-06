@@ -16,6 +16,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.AsyncTask
+import android.widget.Button
 import android.widget.ImageView
 import androidx.cardview.widget.CardView
 import org.json.JSONObject
@@ -118,6 +119,19 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, Wecact1::class.java)
                 startActivity(intent)
             }
+
+            val button = findViewById<Button>(R.id.button)
+            button.setOnClickListener {
+                val intent = Intent(this@MainActivity, ustaact1::class.java)
+                startActivity(intent)
+            }
+
+            val button2 = findViewById<Button>(R.id.button2)
+            button2.setOnClickListener {
+                val intent = Intent(this@MainActivity, ustaact2::class.java)
+                startActivity(intent)
+            }
+
 
             if (result.isNotEmpty()) { // Sprawdzenie, czy otrzymany rezultat nie jest pusty.
                 val races = JSONObject(result).getJSONObject("MRData")   // Analiza danych JSON i przypisanie wyników do zmiennej "races".

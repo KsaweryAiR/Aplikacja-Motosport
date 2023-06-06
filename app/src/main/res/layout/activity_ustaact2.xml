@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ustaact2">
+
+    <TextView
+        android:id="@+id/gyroTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Żyroskop: "
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/accelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Akcelerometr: "
+        android:textSize="18sp"
+        android:layout_below="@id/gyroTextView"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/magnetTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Magnetometr: "
+        android:textSize="18sp"
+        android:layout_below="@id/accelTextView"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>
